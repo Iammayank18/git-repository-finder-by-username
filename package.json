@@ -1,5 +1,6 @@
 {
   "name": "git-repo-fetch",
+  "homepage": "https://iammayank18.github.io/git-repository-finder-by-username/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
