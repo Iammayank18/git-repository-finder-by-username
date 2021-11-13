@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/git-repository-finder-by-username/static/css/main.06e91577.chunk.css",
+    "main.js": "/git-repository-finder-by-username/static/js/main.ad900151.chunk.js",
+    "main.js.map": "/git-repository-finder-by-username/static/js/main.ad900151.chunk.js.map",
+    "runtime-main.js": "/git-repository-finder-by-username/static/js/runtime-main.f1b3ed87.js",
+    "runtime-main.js.map": "/git-repository-finder-by-username/static/js/runtime-main.f1b3ed87.js.map",
+    "static/js/2.d72cd366.chunk.js": "/git-repository-finder-by-username/static/js/2.d72cd366.chunk.js",
+    "static/js/2.d72cd366.chunk.js.map": "/git-repository-finder-by-username/static/js/2.d72cd366.chunk.js.map",
+    "static/js/3.c68b8b85.chunk.js": "/git-repository-finder-by-username/static/js/3.c68b8b85.chunk.js",
+    "static/js/3.c68b8b85.chunk.js.map": "/git-repository-finder-by-username/static/js/3.c68b8b85.chunk.js.map",
+    "index.html": "/git-repository-finder-by-username/index.html",
+    "static/css/main.06e91577.chunk.css.map": "/git-repository-finder-by-username/static/css/main.06e91577.chunk.css.map",
+    "static/js/2.d72cd366.chunk.js.LICENSE.txt": "/git-repository-finder-by-username/static/js/2.d72cd366.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1b3ed87.js",
+    "static/js/2.d72cd366.chunk.js",
+    "static/css/main.06e91577.chunk.css",
+    "static/js/main.ad900151.chunk.js"
+  ]
+}
