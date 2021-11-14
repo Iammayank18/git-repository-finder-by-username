@@ -39,7 +39,7 @@ const Fetchrepo = () => {
         <div className=" mt-4 box" id="main-box">
         <div>
           <form
-            className="d-flex justify-content-center"
+            className="form-main justify-content-center"
             action=""
             onSubmit={submit}
           >
@@ -51,7 +51,7 @@ const Fetchrepo = () => {
               placeholder="Github username"
 
             />
-            <button className="btn btn-primary" type="submit">
+            <button className="button-main" type="submit">
               <i className="fa fa-search search-icon" />
             </button>
           </form>
