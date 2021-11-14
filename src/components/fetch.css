@@ -23,10 +23,43 @@
 
 a{
     font-weight: 600;
-    justify-content: start;
+    align-items: flex-start;
+     text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
 }
 
 .data_body{
         height: 70vh;
         overflow: scroll;
 }
+
+input{
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: aliceblue;
+    padding: 6px;
+    margin: 10px;
+}
+
+.search-icon{
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: rgb(17, 25, 40);
+    padding: 6px;
+    margin: 10px;
+  
+}
+
+
+@media screen and (min-width: 300px) {
+    .containers {
+        margin: 10 auto;
+        max-width: 80%;
+    }
+}
+

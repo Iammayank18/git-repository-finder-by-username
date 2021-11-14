@@ -21,7 +21,7 @@ const Fetchrepo = () => {
           (
             <>
               <tr className="text-light">
-                <a className="text-light pt-3" href={repo.html_url} target="_blank">{repo.full_name}</a>
+                <a className="" href={repo.html_url} target="_blank">{repo.full_name}</a>
               </tr>
             </>
           )
@@ -49,9 +49,10 @@ const Fetchrepo = () => {
               value={repo}
               onChange={(e) => setRepo(e.target.value)}
               placeholder="Github username"
+
             />
             <button className="btn btn-primary" type="submit">
-              Fetch Repos
+              <i className="fa fa-search search-icon" />
             </button>
           </form>
         </div>
