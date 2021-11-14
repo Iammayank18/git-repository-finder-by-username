@@ -9,9 +9,9 @@ const Fetchrepo = () => {
 
 
   const submit =async (e) => {
-    var url= "https://github.com/";
+  
     e.preventDefault();
-    const repos = await fetch(`https://api.github.com/users/${repo}/repos`)
+    await fetch(`https://api.github.com/users/${repo}/repos`)
       .then(res => res.json())
       .then(data => {
         console.log(data.map(repo => repo.git_url));
@@ -21,7 +21,7 @@ const Fetchrepo = () => {
           (
             <>
               <tr className="text-light">
-                <a className="" href={repo.html_url} target="_blank">{repo.full_name}</a>
+                <a className="" rel="noreferrer" href={repo.html_url} target="_blank">{repo.full_name}</a>
               </tr>
             </>
           )
